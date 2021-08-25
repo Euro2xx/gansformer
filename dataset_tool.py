@@ -14,6 +14,8 @@ import PIL.Image
 import cv2
 import io
 from tqdm import tqdm, trange
+
+from dnnlib import tflib
 from training import misc 
 
 def error(msg):

@@ -4,6 +4,7 @@ import os
 import glob
 import numpy as np
 import tensorflow as tf
+
 import dnnlib
 import dnnlib.tflib as tflib
 from training import misc

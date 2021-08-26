@@ -22,6 +22,7 @@ from .. import util
 
 from .tfutil import TfExpression, TfExpressionEx
 
+
 _import_handlers = []  # Custom import handlers for dealing with legacy data in pickle import
 _import_module_src = dict()  # Source code for temporary modules created during pickle import
 
@@ -152,6 +153,7 @@ class Network:
 
         # Build template graph
         with tfutil.absolute_variable_scope(self.scope, reuse = False), tfutil.absolute_name_scope(self.scope):  # ignore surrounding scopes
+
             assert tf.compat.v1.get_variable_scope().name == self.scope
             assert tf.compat.v1.get_default_graph().get_name_scope() == self.scope
             with tf.control_dependencies(None):  # ignore surrounding control dependencies

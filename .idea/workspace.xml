@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2af08385-9f33-48c8-a9e6-119d3fa7c826" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dnnlib/tflib/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/dnnlib/tflib/network.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -11,6 +11,8 @@ logging.getLogger("tensorflow").setLevel(logging.ERROR)
 
 from typing import Any, Iterable, List, Union
 
+print(tf.__version__)
+print(dir(tf.feature_column))
 TfExpression = Union[tf.Tensor, tf.Variable, tf.Operation]
 # A type that represents a valid Tensorflow expression
 
